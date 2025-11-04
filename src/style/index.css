@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+body{
+  @apply text-white bg-gray-950 font-serif min-h-screen m-0 p-0;
+}
+
+.button-background {
+  @apply border rounded-2xl px-4 py-2 bg-gradient-to-r from-yellow-600 to-amber-400 hover:bg-gradient-to-r hover:from-amber-400 hover:to-yellow-300 transition-all duration-300 hover:cursor-pointer font-semibold;
+}
+
+.blue-button-background {
+  @apply border rounded-2xl px-4 py-2 bg-gradient-to-r from-cyan-800 to-cyan-600 hover:bg-gradient-to-r hover:from-cyan-700 hover:to-cyan-500 transition-all duration-300 hover:cursor-pointer font-semibold;
+}
+
+.nav-list-hover {
+  @apply cursor-pointer pb-3 transition-all duration-300  hover:text-amber-400  border-transparent hover:border-amber-600 
+}
+
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+html {
+  scrollbar-width: none; /* Firefox */
+}
+
+@keyframes gradient {
+  0%   { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}

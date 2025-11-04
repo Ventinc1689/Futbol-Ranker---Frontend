@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Soccer trophy icon on dark badge">
+  <circle cx="256" cy="256" r="248" fill="#0B0F1A"/>
+  <g fill="#D4AF37">
+    <!-- Trophy base -->
+    <rect x="206" y="392" width="100" height="20" rx="6"/>
+    <rect x="176" y="416" width="160" height="28" rx="10"/>
+    <!-- Stem -->
+    <path d="M242 360c-4 24-24 28-24 28h76s-20-4-24-28v-30h-28v30z"/>
+    <!-- Cup -->
+    <path d="M128 156c0 84 68 152 152 152s152-68 152-152h-56c0 58-46 104-104 104s-104-46-104-104h-40z"/>
+    <!-- Handles -->
+    <path d="M128 156c-44 0-80 36-80 80 0 46 35 84 80 88v-40c-24-4-40-24-40-48 0-26 22-48 48-48h-8z"/>
+    <path d="M384 156c44 0 80 36 80 80 0 46-35 84-80 88v-40c24-4 40-24 40-48 0-26-22-48-48-48h8z"/>
+    <!-- Soccer ball emblem -->
+    <circle cx="280" cy="208" r="56" fill="none" stroke="#D4AF37" stroke-width="20"/>
+    <g transform="translate(280 208)" fill="#D4AF37">
+      <polygon points="0,-22 21,-7 13,18 -13,18 -21,-7" />
+      <polygon points="0,-22 32,-28 46,-4 21,-7" />
+      <polygon points="21,-7 46,-4 34,24 13,18" />
+      <polygon points="13,18 34,24 12,42 -10,42 -13,18" />
+      <polygon points="-13,18 -34,24 -46,-4 -21,-7" />
+      <polygon points="-21,-7 -46,-4 -32,-28 0,-22" />
+    </g>
+  </g>
+</svg>
